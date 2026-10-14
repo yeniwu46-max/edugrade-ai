@@ -1,0 +1,23 @@
+{
+  "name": "edugrade-ai-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "EduGrade AI 教学作业上传与自动评分系统前端 (Vue 3 + Vite + Element Plus)",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "axios": "^1.6.8",
+    "element-plus": "^2.7.2",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.11"
+  }
+}
